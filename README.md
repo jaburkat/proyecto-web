@@ -1,2 +1,2 @@
-# Proyecto - Segunda Entrega
-Desarrollo Web Coderhouse
+# Proyecto - Coderhouse
+Segunda entrega del proyecto de desarrollo web
