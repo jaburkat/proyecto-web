@@ -1,0 +1,25 @@
+/* ==== FOOTER ==== */
+
+/* REDES SOCIALES */
+.footer-redes {
+    text-align: center;   
+    background-color: $colorprimario;
+    color: $colortext;
+    margin-top: auto;
+
+    .coloricon-redes {
+        color: $colorsecundario;
+    }
+}
+/* COPYRIGHT */
+.footer-copy {
+    @include text (center, 1rem, normal);
+    padding: 10px;
+    background-color: $colortrans;
+    color: $colortext;
+
+    a {
+        color: $colorsecundario;
+    }
+}
+

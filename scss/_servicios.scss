@@ -1,0 +1,21 @@
+/* ==== SECCION SERVICIOS ==== */
+
+#servicios {
+    margin-bottom: 13px;
+
+    .card {
+        @include color-fondo-texto;
+        
+    
+        .card-title {
+            @include text (center, 1.4rem, bolder);
+            color: $colorsecundario;
+        }
+    
+        &:hover{
+            background-color: $coloroscuro;
+        }
+    }
+    
+}
+

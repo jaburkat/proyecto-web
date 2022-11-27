@@ -1,0 +1,48 @@
+/* ==== SECCION CONTACTO ==== */
+
+/* DATOS DE CONTACTO */
+.contacto-datos {
+    color: $coloroscuro;
+    @include text (center, 1.2rem, bold);
+
+    p { 
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    
+    .coloricon-contacto {
+        color: $coloroscuro;
+    }
+}
+
+/* FORMULARIO */
+.formulario {
+
+    .form-label {
+        @include text (center, 1rem, bold);
+        color: $coloroscuro;
+    }
+
+    .form-control {
+        border: $coloroscuro solid 1px;
+    }
+}
+
+/* GOOGLE MAPS */
+.map-responsive {
+    overflow:hidden;
+    padding-bottom:70%;
+    position:relative;
+    height:0;
+
+    iframe {
+        left:0;
+        top:0;
+        @include sizes (100%, 100%);
+        position:absolute;
+    }
+
+}
+
+
+

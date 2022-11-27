@@ -1,0 +1,61 @@
+/* ==== HEADER ==== */
+/* MENU */
+header {
+    
+    .navbar {
+
+        &.colormenu {
+            background-color: $colorprimario;
+        }
+
+        .container {
+            .navbar-brand{
+                color: $colorsecundario;
+                
+                .logo-img {                    
+                    @include sizes (60px, 40px);
+                }
+
+            }
+        }
+
+        .navbar-nav {
+
+            .nav-item a::after {
+                content: '';
+                display: block;
+                @include sizes (0px, 2px);
+                background: $colorsecundario;
+                transition: 0.6s
+            }
+
+            .nav-item a:hover::after {
+                width: 100%
+            }
+
+            .nav-link {
+                @include text (center, 1.2rem, normal);
+                color: $colortext;
+                margin-left: 20px;
+            }
+            
+            .active>.nav-link,
+            .nav-link.active,
+            .nav-link.show,
+            .show>.nav-link,
+            .nav-link:focus,
+            .nav-link:hover {
+                color: $colorsecundario;
+                }
+        }
+    }
+}
+
+@media screen and (max-width: $pantalla-chica) {
+    .navbar .container .navbar-nav .nav-item a:hover::after {
+        display: none;
+    }
+}
+
+
+

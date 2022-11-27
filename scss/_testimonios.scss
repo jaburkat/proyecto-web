@@ -1,0 +1,33 @@
+/* ==== SECCION TESTIMONIOS ==== */
+
+#testimonios {
+    margin-bottom: 13px;
+}
+
+.card-testi {
+    background-color: $colorsecundario;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 20px;
+
+    &:hover{
+        @include color-fondo-texto;
+    }
+
+    .nombre-color {
+        @include text (center, 1.4rem, bolder);
+        color: $colorprimario;
+    }
+    
+    .profesion-color {
+        @include text (center, 1.2rem, lighter);
+        color: $coloroscuro;
+    }
+    
+    .user-image img {
+        @include sizes (80px, 60px);
+        margin-right: 30px;
+    }
+
+}
+

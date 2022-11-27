@@ -1,0 +1,43 @@
+/* ==== SECCION ACERCA DE MI ==== */
+
+/* DESCRIPCION */
+.coloracercademi {
+    background-color: $colorsecundario;
+}
+
+/* CONTADOR */
+.color-fondo {
+    background-color: $coloroscuro;
+}
+
+.acercademi-year {
+    text-align: center;   
+    margin-top: 30px;
+
+    .year {
+        font-size: 3rem;
+        font-weight: bold;
+        color: $colortext;
+        }
+
+    .year-text {
+        @extend .year;
+        font-size: 2rem;
+        }
+    
+}
+
+// MAP CONTADOR
+$contador: (
+    calendar: $colorcalendar,
+    gavel: $colorgavel,
+    user: $coloruser
+);
+
+// EACH MAP CONTADOR
+@each $itemcontador ,$coloritem in $contador {
+    .fa-#{$itemcontador} {
+        color: $coloritem;
+    }
+    
+}

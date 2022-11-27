@@ -1,0 +1,35 @@
+/* ==== PRINCIPAL INDEX ==== */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    @include degrade;
+    
+    .titulo-hero {
+        @include text (center, 4rem, bolder);
+        color: $colortext;
+    }
+
+    .titulo-subhero {
+        @include text (center, 3rem, bolder);
+        color: $colortext; 
+    }
+
+    .boton-hero {
+        margin-top: 20px;
+        margin-bottom: 120px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
