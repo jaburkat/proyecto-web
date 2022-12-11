@@ -24,13 +24,13 @@ body {
 }
 
 /* BOTON */
-.colorboton {
+.btn-success {
     background-color: $coloroscuro;
     color: $colortext;
     border: 2px solid rgb(0,0,0,0.5);
 
     &:hover {
-        @extend .colorboton;
+        @extend .btn-success;
         background: $colorprimario;
     }
     

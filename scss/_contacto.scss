@@ -29,19 +29,10 @@
 }
 
 /* GOOGLE MAPS */
-.map-responsive {
-    overflow:hidden;
-    padding-bottom:70%;
-    position:relative;
-    height:0;
+.maps {
 
-    iframe {
-        left:0;
-        top:0;
-        @include sizes (100%, 100%);
-        position:absolute;
-    }
-
+    @include sizes (100%, 420px);
+    
 }
 
 
