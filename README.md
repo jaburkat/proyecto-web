@@ -1,4 +1,5 @@
-# Proyecto - Coderhouse
-Tercera entrega del proyecto de desarrollo web
+# Proyecto web - Coderhouse
+
+Entrega: Proyecto final.
 
 [DEMO](https://jaburkat.github.io/proyecto-web/index.html)
